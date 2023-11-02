@@ -13,8 +13,16 @@
 
     <main class="container-input">
         <span>Tamanho <span id="valor"></span> caracteres</span>
+        <input id="slider" class="slider" type="range" min="5" max="25" value="15"/>
+
+        <button id="button" class="button-cta">Gerar Senha</button>
     </main>
 
+    <div id="container-password" class="container-password hide">
+        <span class="tittle"></span>
+        <span id="password" class="password">123456</span>
+        <span>Clique na senha para copiar.</span>
+    </div>
 
     <script src="script.js"></script>
 </body>
